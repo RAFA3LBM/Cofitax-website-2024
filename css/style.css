@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2 family=Cabin&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+@import url(menu.css);
+@import url(date-time.css);
+
+/*----- Generales -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/background.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-bottom: 25pz;
+}
+
+
+
+
+
+/*----- Ads Banner Principal -----*/
+.header #ads-top {
+    margin: 0px 0px;
+    padding: 10px;
+}
+
+/*----- Banners -----*/
+#banner-top img {
+    width: 100%;
+    height: 100%;
+}
+#banner-top {
+    position: relative;
+}
+#banner-top .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*----- Generales Menu -----*/
+#menu-top {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color: #000;
+}
+#menu-top .contenedor {
+    display: table;
+}
+
+
+/*----- Banner Principal -----*/
+#banner-top .contenedor {
+    align-content: center;
+}
+#banner-top .contenedor img {
+    width: 50%;
+    margin: 10px;
+}
+
+/*----- Slogan -----*/
+.header #slogan {
+    background: #1A5AD9;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.header #slogan .tex-slogan {
+    text-align: center;
+}
+
+
+/*-------------------- Descripción --------------------*/
+
+.descripcion-2 .contenedor .texto {
+    color: #1A5AD9;
+    text-align: center;
+    padding: 50px 10px;
+}
+/*-------------------- banner cdmx --------------------*/
+.descripcion {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    color: #fff;
+}
+.imagen-banner {
+    margin: 0px;
+    padding: 0px;
+}
+.descripcion .contenedor h3 {
+    padding: 20px 20px;
+    background: #333;
+}
+.descripcion .contenedor p {
+    padding: 20px 20px;
+    background: #333;
+}
+/*-------------------- Descripción 3 --------------------*/
+.descripcion-3 .contenedor .texto {
+    padding: 10px;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+/*-------------------- Factores --------------------*/
+.factores {
+    padding: 20px;  
+}
+.factores .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.factores .contenedor .factor {
+    width: 200px;
+    margin: 5px 20px;
+    text-align: center;
+}
+.factores .contenedor .factor img {
+    width: 120px;
+}
+/*-------------------- Estrategia --------------------*/
+.estrategias {
+    padding: 80px 20px;
+    background: #1A5AD9;
+    color: #fff;
+    text-align: center;
+}
+
+.beneficio .contenedor .titulo {
+    text-align: center;
+    padding: 50px 10px 10px;
+}
+.beneficios {
+    text-align: center;
+    padding: 10px 10px 50px;
+}
+
+/*------------------ Preguntas ------------------*/
+.preguntas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.preguntas .contenedor .cuadro {
+    width: 310px;
+    margin: 5px;
+    background: #1A5AD9;
+}
+.preguntas .contenedor .cuadro .imagen img {
+    width: 100%;
+}
+.preguntas .contenedor .cuadro .texto {
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.preguntas .contenedor .cuadro .texto h4 {
+    text-align: center;
+    margin: 10px; 
+}
+
+/*--------------- Te gustaria crecer ---------------*/
+.teayudamos .contenedor .muchaspersonas {
+    padding: 30px 0px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.teayudamos .contenedor .muchaspersonas h2 {
+    margin: 10px;
+}
+.teayudamos .contenedor .muchaspersonas h3 {
+    margin: 10px;
+}
+.teayudamos .contenedor .muchaspersonas img {
+    width: 200px;
+}
+
+.teayudamos .contenedor .descubrelas {
+    padding: 100px 0px;
+    background: #1A5AD9;
+    text-align: center;
+    color: #fff;
+}
+.teayudamos .contenedor .descubrelas h2 {
+    margin: 10px;
+}
+.teayudamos .contenedor .descubrelas p {
+    margin: 10px;
+}
+
+
+
+/*----- Precio de paquetes -----*/
+.precios .contenedor .paquete {
+    text-align: center;
+    margin: 10px;
+}
+.precios .contenedor .paquete img {
+    width: 100%;
+    padding: 20px;
+    width: 200px;
+}
+.precios .contenedor .paquete h2 {
+    font-size: 30pt;
+}
+.precios .contenedor .paquete p {
+    font-size: 26pt;
+}
+
+.contactanos {
+    padding: 40px;
+    text-align: justify;
+}
+.contactanos .contenedor .texto h3 {
+    margin: 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Pie de página / Footer -----*/
+.footer {
+    background: #333;
+    padding: 20px 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .contenedor img {
+    width: 100px;
+    margin: 10px;
+}
+.footer .contenedor a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*----- Estilos de 1024px en escritorio -----*/
+
+@media (min-width:768px) {
+    .contenedor {
+        width: 1000px;
+    }
+    /*----- Banner Principal -----*/
+    #banner-top {
+        height: 500px;
+        overflow: hidden;
+    }
+    #banner-top img {
+        height: auto;
+        margin-top: -70px;
+    }
+    #banner-top .contenedor img {
+        width: 370px;
+        margin: 0;
+        text-align: center;
+        transform: translateX(80%) translateY(0%);
+    }
+    .precios .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .precios .contenedor .paquete {
+        width: 30%;
+    }
+    
+    .precios .contenedor .paquete h2 {
+    font-size: 25pt;
+}
+    .precios .contenedor .paquete p {
+        font-size: 20pt;
+    }
+    
+    
+    
+    
+    .contactanos {
+        text-align: center;
+    }
+    
+    
+}
+
